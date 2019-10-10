@@ -1,0 +1,14 @@
+#myTab li a {
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+.this-tab {
+  display: flex!important;
+  flex-direction: row;
+}
+
+.report-item {
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+}
