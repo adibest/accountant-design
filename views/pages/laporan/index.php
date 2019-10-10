@@ -82,131 +82,199 @@
                             </div>
                             <div class="card-body">
                               <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade show active this-tab" id="umum" role="tabpanel" aria-labelledby="umum-tab">
-                                  <div class="col-sm-12 col-md-6">
-                                    <div class="report-item">
-                                      <h3>
-                                        <a data-placement="left" data-toggle="tooltop" href="/reports/balance_sheet">
-                                          Neraca 1
+                                <div class="tab-pane fade show active" id="umum" role="tabpanel" aria-labelledby="umum-tab">
+                                  <div class="d-flex flex-wrap">
+                                    <div class="col-sm-12 col-md-6">
+                                      <div class="report-item">
+                                        <h3>
+                                          <a data-placement="left" data-toggle="tooltop" href="/reports/balance_sheet">
+                                            Neraca
+                                          </a>
+                                        </h3>
+                                        <p>
+                                          Menampilan apa yang anda miliki (aset), apa yang anda hutang (liabilitas), dan apa yang anda sudah investasikan pada perusahaan anda (ekuitas).
+                                        </p>
+                                        <a class="btn btn-outline-primary btn-rounded" href="/reports/balance_sheet">
+                                          Lihat Laporan
                                         </a>
-                                      </h3>
-                                      <p>
-                                        Menampilan apa yang anda miliki (aset), apa yang anda hutang (liabilitas), dan apa yang anda sudah investasikan pada perusahaan anda (ekuitas).
-                                      </p>
-                                      <a class="btn btn-outline-primary btn-rounded" href="/reports/balance_sheet">
-                                        Lihat Laporan
-                                      </a>
+                                      </div>
                                     </div>
-                                  </div>
-                                  <div class="col-sm-12 col-md-6">
-                                    <div class="report-item">
-                                      <h3>
-                                        <a data-placement="left" data-toggle="tooltop" href="/reports/balance_sheet">
-                                          Neraca
+                                    <div class="col-sm-12 col-md-6">
+                                      <div class="report-item">
+                                        <h3>
+                                          <a data-placement="left" data-toggle="tooltop" href="/reports/balance_sheet">
+                                            Laporan Laba-Rugi
+                                          </a>
+                                        </h3>
+                                        <p>
+                                          Menampilkan setiap tipe transaksi dan jumlah total untuk pendapatan dan pengeluaran anda.
+                                        </p>
+                                        <a class="btn btn-outline-primary btn-rounded" href="/reports/balance_sheet">
+                                          Lihat Laporan
                                         </a>
-                                      </h3>
-                                      <p>
-                                        Menampilan apa yang anda miliki (aset), apa yang anda hutang (liabilitas), dan apa yang anda sudah investasikan pada perusahaan anda (ekuitas).
-                                      </p>
-                                      <a class="btn btn-outline-primary btn-rounded" href="/reports/balance_sheet">
-                                        Lihat Laporan
-                                      </a>
+                                      </div>
                                     </div>
-                                  </div>
-                                </div>
-                                <div class="tab-pane fade this-tab" id="penjualan" role="tabpanel" aria-labelledby="penjualan-tab">
-                                  <div class="col-sm-12 col-md-6">
-                                    <div class="report-item">
-                                      <h3>
-                                        <a data-placement="left" data-toggle="tooltop" href="/reports/balance_sheet">
-                                          Neraca
+                                    <div class="col-sm-12 col-md-6">
+                                      <div class="report-item">
+                                        <h3>
+                                          <a data-placement="left" data-toggle="tooltop" href="/reports/balance_sheet">
+                                            Buku Besar
+                                          </a>
+                                        </h3>
+                                        <p>
+                                          Laporan ini menampilkan semua transaksi yang telah dilakukan untuk suatu periode. Laporan ini bermanfaat jika Anda memerlukan daftar kronologis untuk semua transaksi yang telah dilakukan oleh perusahaan Anda.
+                                        </p>
+                                        <a class="btn btn-outline-primary btn-rounded" href="/reports/balance_sheet">
+                                          Lihat Laporan
                                         </a>
-                                      </h3>
-                                      <p>
-                                        Menampilan apa yang anda miliki (aset), apa yang anda hutang (liabilitas), dan apa yang anda sudah investasikan pada perusahaan anda (ekuitas).
-                                      </p>
-                                      <a class="btn btn-outline-primary btn-rounded" href="/reports/balance_sheet">
-                                        Lihat Laporan
-                                      </a>
+                                      </div>
                                     </div>
-                                  </div>
-                                  <div class="col-sm-12 col-md-6">
-                                    <div class="report-item">
-                                      <h3>
-                                        <a data-placement="left" data-toggle="tooltop" href="/reports/balance_sheet">
-                                          Neraca
+                                    <div class="col-sm-12 col-md-6">
+                                      <div class="report-item">
+                                        <h3>
+                                          <a data-placement="left" data-toggle="tooltop" href="/reports/balance_sheet">
+                                            Jurnal
+                                          </a>
+                                        </h3>
+                                        <p>
+                                          Daftar semua jurnal per transaksi yang terjadi dalam periode waktu. Hal ini berguna untuk melacak di mana transaksi Anda masuk ke masing-masing rekening
+                                        </p>
+                                        <a class="btn btn-outline-primary btn-rounded" href="/reports/balance_sheet">
+                                          Lihat Laporan
                                         </a>
-                                      </h3>
-                                      <p>
-                                        Menampilan apa yang anda miliki (aset), apa yang anda hutang (liabilitas), dan apa yang anda sudah investasikan pada perusahaan anda (ekuitas).
-                                      </p>
-                                      <a class="btn btn-outline-primary btn-rounded" href="/reports/balance_sheet">
-                                        Lihat Laporan
-                                      </a>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="tab-pane fade this-tab" id="pembelian" role="tabpanel" aria-labelledby="pembelian-tab">
-                                  <div class="col-sm-12 col-md-6">
-                                    <div class="report-item">
-                                      <h3>
-                                        <a data-placement="left" data-toggle="tooltop" href="/reports/balance_sheet">
-                                          Neraca
-                                        </a>
-                                      </h3>
-                                      <p>
-                                        Menampilan apa yang anda miliki (aset), apa yang anda hutang (liabilitas), dan apa yang anda sudah investasikan pada perusahaan anda (ekuitas).
-                                      </p>
-                                      <a class="btn btn-outline-primary btn-rounded" href="/reports/balance_sheet">
-                                        Lihat Laporan
-                                      </a>
-                                    </div>
-                                  </div>
-                                  <div class="col-sm-12 col-md-6">
-                                    <div class="report-item">
-                                      <h3>
-                                        <a data-placement="left" data-toggle="tooltop" href="/reports/balance_sheet">
-                                          Neraca
-                                        </a>
-                                      </h3>
-                                      <p>
-                                        Menampilan apa yang anda miliki (aset), apa yang anda hutang (liabilitas), dan apa yang anda sudah investasikan pada perusahaan anda (ekuitas).
-                                      </p>
-                                      <a class="btn btn-outline-primary btn-rounded" href="/reports/balance_sheet">
-                                        Lihat Laporan
-                                      </a>
+                                      </div>
                                     </div>
                                   </div>
                                 </div>
-                                <div class="tab-pane fade this-tab" id="produk" role="tabpanel" aria-labelledby="produk-tab">
-                                  <div class="col-sm-12 col-md-6">
-                                    <div class="report-item">
-                                      <h3>
-                                        <a data-placement="left" data-toggle="tooltop" href="/reports/balance_sheet">
-                                          Neraca
+                                <div class="tab-pane fade" id="penjualan" role="tabpanel" aria-labelledby="penjualan-tab">
+                                  <div class="d-flex flex-wrap">
+                                    <div class="col-sm-12 col-md-6">
+                                      <div class="report-item">
+                                        <h3>
+                                          <a data-placement="left" data-toggle="tooltop" href="/reports/balance_sheet">
+                                            Daftar Penjualan
+                                          </a>
+                                        </h3>
+                                        <p>
+                                          Menunjukkan daftar kronologis dari semua faktur, pemesanan, penawaran, dan pembayaran Anda untuk rentang tanggal yang dipilih.
+                                        </p>
+                                        <a class="btn btn-outline-primary btn-rounded" href="/reports/balance_sheet">
+                                          Lihat Laporan
                                         </a>
-                                      </h3>
-                                      <p>
-                                        Menampilan apa yang anda miliki (aset), apa yang anda hutang (liabilitas), dan apa yang anda sudah investasikan pada perusahaan anda (ekuitas).
-                                      </p>
-                                      <a class="btn btn-outline-primary btn-rounded" href="/reports/balance_sheet">
-                                        Lihat Laporan
-                                      </a>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                      <div class="report-item">
+                                        <h3>
+                                          <a data-placement="left" data-toggle="tooltop" href="/reports/balance_sheet">
+                                            Laporan Piutang Pelanggan
+                                          </a>
+                                        </h3>
+                                        <p>
+                                          Menampilkan tagihan yang belum dibayar untuk setiap pelanggan, termasuk nomor & tanggal faktur, tanggal jatuh tempo, jumlah nilai, dan sisa tagihan yang terhutang pada Anda.
+                                        </p>
+                                        <a class="btn btn-outline-primary btn-rounded" href="/reports/balance_sheet">
+                                          Lihat Laporan
+                                        </a>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                      <div class="report-item">
+                                        <h3>
+                                          <a data-placement="left" data-toggle="tooltop" href="/reports/balance_sheet">
+                                            Penjualan per Produk
+                                          </a>
+                                        </h3>
+                                        <p>
+                                          Menampilkan daftar kuantitas penjualan per produk, termasuk jumlah retur, net penjualan, dan harga penjualan rata-rata.
+                                        </p>
+                                        <a class="btn btn-outline-primary btn-rounded" href="/reports/balance_sheet">
+                                          Lihat Laporan
+                                        </a>
+                                      </div>
                                     </div>
                                   </div>
-                                  <div class="col-sm-12 col-md-6">
-                                    <div class="report-item">
-                                      <h3>
-                                        <a data-placement="left" data-toggle="tooltop" href="/reports/balance_sheet">
-                                          Neraca
+                                </div>
+                                <div class="tab-pane fade" id="pembelian" role="tabpanel" aria-labelledby="pembelian-tab">
+                                  <div class="d-flex flex-wrap">
+                                    <div class="col-sm-12 col-md-6">
+                                      <div class="report-item">
+                                        <h3>
+                                          <a data-placement="left" data-toggle="tooltop" href="/reports/balance_sheet">
+                                            Pembelian per Produk
+                                          </a>
+                                        </h3>
+                                        <p>
+                                          Menunjukkan daftar kronologis dari semua pembelian, pemesanan, penawaran, dan pembayaran Anda untuk rentang tanggal yang dipilih.
+                                        </p>
+                                        <a class="btn btn-outline-primary btn-rounded" href="/reports/balance_sheet">
+                                          Lihat Laporan
                                         </a>
-                                      </h3>
-                                      <p>
-                                        Menampilan apa yang anda miliki (aset), apa yang anda hutang (liabilitas), dan apa yang anda sudah investasikan pada perusahaan anda (ekuitas).
-                                      </p>
-                                      <a class="btn btn-outline-primary btn-rounded" href="/reports/balance_sheet">
-                                        Lihat Laporan
-                                      </a>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                      <div class="report-item">
+                                        <h3>
+                                          <a data-placement="left" data-toggle="tooltop" href="/reports/balance_sheet">
+                                            Laporan Hutang Supplier
+                                          </a>
+                                        </h3>
+                                        <p>
+                                          Menampilkan jumlah nilai yang Anda hutang pada setiap Supplier.
+                                        </p>
+                                        <a class="btn btn-outline-primary btn-rounded" href="/reports/balance_sheet">
+                                          Lihat Laporan
+                                        </a>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                      <div class="report-item">
+                                        <h3>
+                                          <a data-placement="left" data-toggle="tooltop" href="/reports/balance_sheet">
+                                            Pembelian per Produk
+                                          </a>
+                                        </h3>
+                                        <p>
+                                          Menampilkan daftar kuantitas pembelian per produk, termasuk jumlah retur, net pembelian, dan harga pembelian rata-rata.
+                                        </p>
+                                        <a class="btn btn-outline-primary btn-rounded" href="/reports/balance_sheet">
+                                          Lihat Laporan
+                                        </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="tab-pane fade" id="produk" role="tabpanel" aria-labelledby="produk-tab">
+                                  <div class="d-flex flex-wrap">
+                                    <div class="col-sm-12 col-md-6">
+                                      <div class="report-item">
+                                        <h3>
+                                          <a data-placement="left" data-toggle="tooltop" href="/reports/balance_sheet">
+                                            Ringkasan Persediaan Barang FIFO
+                                          </a>
+                                        </h3>
+                                        <p>
+                                          Menampilkan daftar kuantitas dan nilai seluruh barang persediaan per tanggal yg ditentukan.
+                                        </p>
+                                        <a class="btn btn-outline-primary btn-rounded" href="/reports/balance_sheet">
+                                          Lihat Laporan
+                                        </a>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                      <div class="report-item">
+                                        <h3>
+                                          <a data-placement="left" data-toggle="tooltop" href="/reports/balance_sheet">
+                                            Kuantitas Stok Gudang
+                                          </a>
+                                        </h3>
+                                        <p>
+                                          Laporan ini menampilkan kuantitas stok di setiap gudang untuk semua produk.
+                                        </p>
+                                        <a class="btn btn-outline-primary btn-rounded" href="/reports/balance_sheet">
+                                          Lihat Laporan
+                                        </a>
+                                      </div>
                                     </div>
                                   </div>
                                 </div>

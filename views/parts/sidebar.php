@@ -13,7 +13,7 @@
           </div>
           <div class="nav-lavel">Master Data</div>
           <div class="nav-item <?php if($pagenow == "/ProjectAkuntan/views/pages/akun") {echo "active";} else {echo "";}?>">
-              <a href="http://localhost/ProjectAkuntan/views/pages/akun"><i class="ik ik-menu"></i><span>Akun</span></a>
+              <a href="http://localhost/ProjectAkuntan/views/pages/akun"><i class="ik ik-menu"></i><span>Daftar Akun</span></a>
           </div>
           <div class="nav-item <?php if($pagenow == "/ProjectAkuntan/views/pages/kontak") {echo "active";} else {echo "";}?>">
               <a href="http://localhost/ProjectAkuntan/views/pages/kontak"><i class="ik ik-phone"></i><span>Kontak</span></a>
