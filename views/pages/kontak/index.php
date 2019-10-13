@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>ThemeKit - Admin Template</title>
+        <title>AccountMin - Simple Accountant Admin</title>
         <meta name="description" content="">
         <meta name="keywords" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -78,6 +78,7 @@
                                   <div class="col-sm-12">
                                     <table id="data_table" class="table dataTable no-footer" role="grid" aria-describedby="data_table_info">
                                       <thead>
+                                        <!-- customer, supplier : id, kode, nama, NPWP, alamat, termin -->
                                         <tr role="row">
                                           <th class="sorting_asc" tabindex="0" aria-controls="data_table" rowspan="1" colspan="1" style="width: 71.6333px;" aria-sort="ascending" aria-label="Id: activate to sort column descending">Id</th>
                                           <th class="nosort sorting_disabled" rowspan="1" colspan="1" style="width: 111.417px;" aria-label="Avatar">Avatar</th>

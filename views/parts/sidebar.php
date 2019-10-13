@@ -15,8 +15,12 @@
           <div class="nav-item <?php if($pagenow == "/ProjectAkuntan/views/pages/akun") {echo "active";} else {echo "";}?>">
               <a href="http://localhost/ProjectAkuntan/views/pages/akun"><i class="ik ik-menu"></i><span>Daftar Akun</span></a>
           </div>
-          <div class="nav-item <?php if($pagenow == "/ProjectAkuntan/views/pages/kontak") {echo "active";} else {echo "";}?>">
-              <a href="http://localhost/ProjectAkuntan/views/pages/kontak"><i class="ik ik-phone"></i><span>Kontak</span></a>
+          <div class="nav-item has-sub <?php if($pagenow === "/ProjectAkuntan/views/pages/customer" || $pagenow === "/ProjectAkuntan/views/pages/supplier") {echo "active open";} else {echo "";}?>">
+              <a href="#"><i class="ik ik-phone"></i><span>Kontak</span></a>
+              <div class="submenu-content">
+                  <a href="http://localhost/ProjectAkuntan/views/pages/customer" class="menu-item <?php if($pagenow == "/ProjectAkuntan/views/pages/customer") {echo "active";} else {echo "";}?>">Customer</a>
+                  <a href="http://localhost/ProjectAkuntan/views/pages/supplier" class="menu-item <?php if($pagenow == "/ProjectAkuntan/views/pages/supplier") {echo "active";} else {echo "";}?>">Supplier</a>
+              </div>
           </div>
           <div class="nav-item <?php if($pagenow == "/ProjectAkuntan/views/pages/satuan") {echo "active";} else {echo "";}?>">
               <a href="http://localhost/ProjectAkuntan/views/pages/satuan"><i class="ik ik-compass"></i><span>Satuan</span></a>
