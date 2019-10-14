@@ -4,11 +4,11 @@
 <div class="sidebar-content">
     <div class="nav-container">
       <nav id="main-menu-navigation" class="navigation-main">
-          <div class="nav-lavel">Navigation</div>
+          <div class="nav-lavel">Umum</div>
           <div class="nav-item <?php if($pagenow == "/ProjectAkuntan") {echo "active";} else {echo "";}?>">
               <a href="http://localhost/ProjectAkuntan/index.php"><i class="ik ik-home"></i><span>Dasbor</span></a>
           </div>
-          <div class="nav-item <?php if($pagenow == "/ProjectAkuntan/views/pages/laporan") {echo "active";} else {echo "";}?>">
+          <div class="nav-item <?php if($pagenow == "/ProjectAkuntan/views/pages/laporan" || $pagenow == "/ProjectAkuntan/views/reports/neraca") {echo "active";} else {echo "";}?>">
               <a href="http://localhost/ProjectAkuntan/views/pages/laporan"><i class="ik ik-trending-up"></i><span>Laporan</span></a>
           </div>
           <div class="nav-lavel">Master Data</div>
@@ -24,6 +24,14 @@
           </div>
           <div class="nav-item <?php if($pagenow == "/ProjectAkuntan/views/pages/satuan") {echo "active";} else {echo "";}?>">
               <a href="http://localhost/ProjectAkuntan/views/pages/satuan"><i class="ik ik-compass"></i><span>Satuan</span></a>
+          </div>
+          <div class="nav-item has-sub <?php if($pagenow === "/ProjectAkuntan/views/pages/saldo_awal" || $pagenow === "/ProjectAkuntan/views/pages/saldo_piutang" || $pagenow === "/ProjectAkuntan/views/pages/saldo_hutang") {echo "active open";} else {echo "";}?>">
+              <a href="#"><i class="ik ik-database"></i><span>Saldo Awal</span></a>
+              <div class="submenu-content">
+                  <a href="http://localhost/ProjectAkuntan/views/pages/saldo_awal" class="menu-item <?php if($pagenow == "/ProjectAkuntan/views/pages/saldo_awal") {echo "active";} else {echo "";}?>">Saldo Awal</a>
+                  <a href="http://localhost/ProjectAkuntan/views/pages/saldo_piutang" class="menu-item <?php if($pagenow == "/ProjectAkuntan/views/pages/saldo_piutang") {echo "active";} else {echo "";}?>">Saldo Piutang</a>
+                  <a href="http://localhost/ProjectAkuntan/views/pages/saldo_hutang" class="menu-item <?php if($pagenow == "/ProjectAkuntan/views/pages/saldo_hutang") {echo "active";} else {echo "";}?>">Saldo Hutang</a>
+              </div>
           </div>
           <div class="nav-lavel">Transaksi</div>
           <div class="nav-item has-sub <?php if($pagenow === "/ProjectAkuntan/views/pages/crj" || $pagenow === "/ProjectAkuntan/views/pages/sales_journal") {echo "active open";} else {echo "";}?>">
@@ -52,9 +60,6 @@
           <div class="nav-lavel">Inventory</div>
           <div class="nav-item <?php if($pagenow == "/ProjectAkuntan/views/pages/item") {echo "active";} else {echo "";}?>">
               <a href="http://localhost/ProjectAkuntan/views/pages/item"><i class="ik ik-box"></i><span>Item</span></a>
-          </div>
-          <div class="nav-item <?php if($pagenow == "/ProjectAkuntan/views/pages/penyesuaian_barang") {echo "active";} else {echo "";}?>">
-              <a href="http://localhost/ProjectAkuntan/views/pages/penyesuaian_barang"><i class="ik ik-layout"></i><span>Penyesuaian Barang</span></a>
           </div>
           <div class="nav-item <?php if($pagenow == "/ProjectAkuntan/views/pages/stock_opname") {echo "active";} else {echo "";}?>">
               <a href="http://localhost/ProjectAkuntan/views/pages/stock_opname"><i class="ik ik-truck"></i><span>Stock Opname</span></a>

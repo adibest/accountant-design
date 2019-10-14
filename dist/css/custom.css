@@ -16,3 +16,19 @@
 .nav-tabs {
   width: 100%;
 }
+
+.report-header, .grand-total {
+  padding-left: 2em!important;
+}
+
+.report-subheader, .report-subtotal {
+  padding-left: 4em!important;
+}
+
+.report-data {
+  padding-left: 6em!important;
+}
+
+.report-notes {
+  font-size: 10px;
+}

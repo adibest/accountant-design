@@ -89,7 +89,7 @@
                                       <td>Box</td>
                                       <td>Box</td>
                                       <td></td>
-                                      <td><button type="button" class="btn btn-outline-success">Aktif</button></td>
+                                      <td><span class="badge badge-pill badge-success mb-1">Aktif</span></td>
                                       <td>
                                         <div class="table-actions">
                                           <a href="#"><i class="ik ik-edit-2"></i></a>
@@ -101,7 +101,7 @@
                                       <td>Dozen</td>
                                       <td>Dozen</td>
                                       <td>12 pcs</td>
-                                      <td><button type="button" class="btn btn-outline-success">Aktif</button></td>
+                                      <td><span class="badge badge-pill badge-success mb-1">Aktif</span></td>
                                       <td>
                                         <div class="table-actions">
                                           <a href="#"><i class="ik ik-edit-2"></i></a>
@@ -113,7 +113,7 @@
                                       <td>Kg</td>
                                       <td>Kilogram</td>
                                       <td></td>
-                                      <td><button type="button" class="btn btn-outline-success">Aktif</button></td>
+                                      <td><span class="badge badge-pill badge-success mb-1">Aktif</span></td>
                                       <td>
                                         <div class="table-actions">
                                           <a href="#"><i class="ik ik-edit-2"></i></a>

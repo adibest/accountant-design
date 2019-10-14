@@ -65,7 +65,7 @@
                           <div class="card">
                             <div class="card-header d-flex justify-content-between flex-row">
                               <div class="left-container">
-                                <h3>Satuan</h3>
+                                <h3>Item</h3>
                                 <span>use class <code>table-hover</code> inside table element</span>
                               </div>
                               <div class="right-container">
