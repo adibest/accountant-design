@@ -38,643 +38,417 @@
 
                 <div class="main-content">
                     <div class="container-fluid">
-                        <div class="row clearfix">
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="widget">
-                                    <div class="widget-body">
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="state">
-                                                <h6>Bookmarks</h6>
-                                                <h2>1,410</h2>
-                                            </div>
-                                            <div class="icon">
-                                                <i class="ik ik-award"></i>
-                                            </div>
-                                        </div>
-                                        <small class="text-small mt-10 d-block">6% higher than last month</small>
-                                    </div>
-                                    <div class="progress progress-sm">
-                                        <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100" style="width: 62%;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="widget">
-                                    <div class="widget-body">
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="state">
-                                                <h6>Likes</h6>
-                                                <h2>41,410</h2>
-                                            </div>
-                                            <div class="icon">
-                                                <i class="ik ik-thumbs-up"></i>
-                                            </div>
-                                        </div>
-                                        <small class="text-small mt-10 d-block">61% higher than last month</small>
-                                    </div>
-                                    <div class="progress progress-sm">
-                                        <div class="progress-bar bg-success" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width: 78%;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="widget">
-                                    <div class="widget-body">
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="state">
-                                                <h6>Events</h6>
-                                                <h2>410</h2>
-                                            </div>
-                                            <div class="icon">
-                                                <i class="ik ik-calendar"></i>
-                                            </div>
-                                        </div>
-                                        <small class="text-small mt-10 d-block">Total Events</small>
-                                    </div>
-                                    <div class="progress progress-sm">
-                                        <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="31" aria-valuemin="0" aria-valuemax="100" style="width: 31%;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="widget">
-                                    <div class="widget-body">
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="state">
-                                                <h6>Comments</h6>
-                                                <h2>41,410</h2>
-                                            </div>
-                                            <div class="icon">
-                                                <i class="ik ik-message-square"></i>
-                                            </div>
-                                        </div>
-                                        <small class="text-small mt-10 d-block">Total Comments</small>
-                                    </div>
-                                    <div class="progress progress-sm">
-                                        <div class="progress-bar bg-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-8">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="row align-items-center">
-                                            <div class="col-lg-8 col-md-12">
-                                                <h3 class="card-title">Visitors By Countries</h3>
-                                                <div id="visitfromworld" style="width:100%; height:350px"></div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-12">
-                                                <div class="row mb-15">
-                                                    <div class="col-9">India</div>
-                                                    <div class="col-3 text-right">28%</div>
-                                                    <div class="col-12">
-                                                        <div class="progress progress-sm mt-5">
-                                                            <div class="progress-bar bg-green" role="progressbar" style="width: 48%" aria-valuenow="48" aria-valuemin="0" aria-valuemax="100"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row mb-15">
-                                                    <div class="col-9"> UK</div>
-                                                    <div class="col-3 text-right">21%</div>
-                                                    <div class="col-12">
-                                                        <div class="progress progress-sm mt-5">
-                                                            <div class="progress-bar bg-aqua" role="progressbar" style="width: 33%" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row mb-15">
-                                                    <div class="col-9"> USA</div>
-                                                    <div class="col-3 text-right">18%</div>
-                                                    <div class="col-12">
-                                                        <div class="progress progress-sm mt-5">
-                                                            <div class="progress-bar bg-purple" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-9">China</div>
-                                                    <div class="col-3 text-right">12%</div>
-                                                    <div class="col-12">
-                                                        <div class="progress progress-sm mt-5">
-                                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card" style="min-height: 422px;">
-                                    <div class="card-header"><h3>Donut chart</h3></div>
-                                    <div class="card-body">
-                                        <div id="c3-donut-chart"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                      <div class="row">
+                          <!-- Round Chart statustc card start -->
+                          <div class="col-xl-3 col-md-6">
+                              <div class="card card-red st-cir-card text-white">
+                                  <div class="card-block">
+                                      <div class="row align-items-center">
+                                          <div class="col-auto">
+                                              <div id="status-round-1" class="chart-shadow st-cir-chart" style="width:80px;height:80px">
+                                                  <h5>42%</h5>
+                                              </div>
+                                          </div>
+                                          <div class="col text-center">
+                                              <h3 class=" fw-700 mb-5">144</h3>
+                                              <h6 class="mb-0 ">Leads</h6>
+                                          </div>
+                                      </div>
+                                      <span class="st-bt-lbl">42</span>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-xl-3 col-md-6">
+                              <div class="card card-blue st-cir-card text-white">
+                                  <div class="card-block">
+                                      <div class="row align-items-center">
+                                          <div class="col-auto">
+                                              <div id="status-round-2" class="chart-shadow st-cir-chart" style="width:80px;height:80px">
+                                                  <h5>56%</h5>
+                                              </div>
+                                          </div>
+                                          <div class="col text-center">
+                                              <h3 class="fw-700 mb-5">102</h3>
+                                              <h6 class="mb-0">Goals</h6>
+                                          </div>
+                                      </div>
+                                      <span class="st-bt-lbl">56</span>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-xl-3 col-md-6">
+                              <div class="card card-green st-cir-card text-white">
+                                  <div class="card-block">
+                                      <div class="row align-items-center">
+                                          <div class="col-auto">
+                                              <div id="status-round-3" class="chart-shadow st-cir-chart" style="width:80px;height:80px">
+                                                  <h5>83%</h5>
+                                              </div>
+                                          </div>
+                                          <div class="col text-center">
+                                              <h3 class="fw-700 mb-5">124</h3>
+                                              <h6 class="mb-0">Contacts</h6>
+                                          </div>
+                                      </div>
+                                      <span class="st-bt-lbl">83</span>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-xl-3 col-md-6">
+                              <div class="card card-yellow st-cir-card text-white">
+                                  <div class="card-block">
+                                      <div class="row align-items-center">
+                                          <div class="col-auto">
+                                              <div id="status-round-4" class="chart-shadow st-cir-chart" style="width:80px;height:80px">
+                                                  <h5>42%</h5>
+                                              </div>
+                                          </div>
+                                          <div class="col text-center">
+                                              <h3 class="fw-700 mb-5">84</h3>
+                                              <h6 class="mb-0">Accounts</h6>
+                                          </div>
+                                      </div>
+                                      <span class="st-bt-lbl">42</span>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- Round Chart statustc card end -->
 
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <h3>Recent Chat</h3>
-                                        <div class="card-header-right">
-                                            <ul class="list-unstyled card-option">
-                                                <li><i class="ik ik-chevron-left action-toggle"></i></li>
-                                                <li><i class="ik ik-minus minimize-card"></i></li>
-                                                <li><i class="ik ik-x close-card"></i></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="card-body chat-box scrollable" style="height:300px;">
-                                        <ul class="chat-list">
-                                            <li class="chat-item">
-                                                <div class="chat-img"><img src="img/users/1.jpg" alt="user"></div>
-                                                <div class="chat-content">
-                                                    <h6 class="font-medium">James Anderson</h6>
-                                                    <div class="box bg-light-info">Lorem Ipsum is simply dummy text of the printing &amp; type setting industry.</div>
-                                                </div>
-                                                <div class="chat-time">10:56 am</div>
-                                            </li>
-                                            <li class="chat-item">
-                                                <div class="chat-img"><img src="img/users/2.jpg" alt="user"></div>
-                                                <div class="chat-content">
-                                                    <h6 class="font-medium">Bianca Doe</h6>
-                                                    <div class="box bg-light-info">It’s Great opportunity to work.</div>
-                                                </div>
-                                                <div class="chat-time">10:57 am</div>
-                                            </li>
-                                            <li class="odd chat-item">
-                                                <div class="chat-content">
-                                                    <div class="box bg-light-inverse">I would love to join the team.</div>
-                                                    <br>
-                                                </div>
-                                            </li>
-                                            <li class="odd chat-item">
-                                                <div class="chat-content">
-                                                    <div class="box bg-light-inverse">Whats budget of the new project.</div>
-                                                    <br>
-                                                </div>
-                                                <div class="chat-time">10:59 am</div>
-                                            </li>
-                                            <li class="chat-item">
-                                                <div class="chat-img"><img src="img/users/3.jpg" alt="user"></div>
-                                                <div class="chat-content">
-                                                    <h6 class="font-medium">Angelina Rhodes</h6>
-                                                    <div class="box bg-light-info">Well we have good budget for the project</div>
-                                                </div>
-                                                <div class="chat-time">11:00 am</div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="card-footer chat-footer">
-                                        <div class="input-wrap">
-                                            <input type="text" placeholder="Type and enter" class="form-control">
-                                        </div>
-                                        <button type="button" class="btn btn-icon btn-theme"><i class="fa fa-paper-plane"></i></button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="d-flex">
-                                            <h4 class="card-title">Weather Report</h4>
-                                            <select class="form-control w-25 ml-auto">
-                                                <option selected="">Today</option>
-                                                <option value="1">Weekly</option>
-                                            </select>
-                                        </div>
-                                        <div class="d-flex align-items-center flex-row mt-30">
-                                            <div class="p-2 f-50 text-info"><i class="wi wi-day-showers"></i> <span>23<sup>°</sup></span></div>
-                                            <div class="p-2">
-                                            <h3 class="mb-0">Saturday</h3><small>Banglore, India</small></div>
-                                        </div>
-                                        <table class="table table-borderless">
-                                            <tbody>
-                                                <tr>
-                                                    <td>Wind</td>
-                                                    <td class="font-medium">ESE 17 mph</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Humidity</td>
-                                                    <td class="font-medium">83%</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Pressure</td>
-                                                    <td class="font-medium">28.56 in</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                        <hr>
-                                        <ul class="list-unstyled row text-center city-weather-days mb-0 mt-20">
-                                            <li class="col"><i class="wi wi-day-sunny mr-5"></i><span>09:30</span><h3>20<sup>°</sup></h3></li>
-                                            <li class="col"><i class="wi wi-day-cloudy mr-5"></i><span>11:30</span><h3>22<sup>°</sup></h3></li>
-                                            <li class="col"><i class="wi wi-day-hail mr-5"></i><span>13:30</span><h3>25<sup>°</sup></h3></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card" style="min-height: 422px;">
-                                    <div class="card-header">
-                                        <h3>Timeline</h3>
-                                        <div class="card-header-right">
-                                            <ul class="list-unstyled card-option">
-                                                <li><i class="ik ik-chevron-left action-toggle"></i></li>
-                                                <li><i class="ik ik-minus minimize-card"></i></li>
-                                                <li><i class="ik ik-x close-card"></i></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="card-body timeline">
-                                        <div class="header bg-theme" style="background-image: url('img/placeholder/placeimg_400_200_nature.jpg')">
-                                            <div class="color-overlay d-flex align-items-center">
-                                                <div class="day-number">8</div>
-                                                <div class="date-right">
-                                                    <div class="day-name">Monday</div>
-                                                    <div class="month">February 2018</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul>
-                                            <li>
-                                                <div class="bullet bg-pink"></div>
-                                                <div class="time">11am</div>
-                                                <div class="desc">
-                                                    <h3>Attendance</h3>
-                                                    <h4>Computer Class</h4>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="bullet bg-green"></div>
-                                                <div class="time">12pm</div>
-                                                <div class="desc">
-                                                    <h3>Design Team</h3>
-                                                    <h4>Hangouts</h4>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="bullet bg-orange"></div>
-                                                <div class="time">2pm</div>
-                                                <div class="desc">
-                                                    <h3>Finish</h3>
-                                                    <h4>Go to Home</h4>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                          <!-- product bar chart start -->
+                          <div class="col-xl-3 col-md-6">
+                              <div class="card prod-bar-card">
+                                  <div class="card-header">
+                                      <h3>Order Received</h3>
+                                  </div>
+                                  <div class="card-block">
+                                      <p>June - July</p>
+                                      <div class="row text-center">
+                                          <div class="col-6">
+                                              <div id="pbc-1" class="pbc-chart" style="height:50px"></div>
+                                              <h6>$ 56,480<i class="fas fa-caret-up ml-10 text-green"></i></h6>
+                                          </div>
+                                          <div class="col-6">
+                                              <div id="pbc-2" class="pbc-chart" style="height:50px"></div>
+                                              <h6>$ 32,432<i class="fas fa-caret-down ml-10 text-red"></i></h6>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-xl-3 col-md-6">
+                              <div class="card prod-bar-card">
+                                  <div class="card-header">
+                                      <h3>Total Sales</h3>
+                                  </div>
+                                  <div class="card-block">
+                                      <p>June - July</p>
+                                      <div class="row text-center">
+                                          <div class="col-6">
+                                              <div id="pbc-3" class="pbc-chart" style="height:50px"></div>
+                                              <h6>$ 56,480<i class="fas fa-caret-up ml-10 text-green"></i></h6>
+                                          </div>
+                                          <div class="col-6">
+                                              <div id="pbc-4" class="pbc-chart" style="height:50px"></div>
+                                              <h6>$ 32,432<i class="fas fa-caret-down ml-10 text-red"></i></h6>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-xl-3 col-md-6">
+                              <div class="card prod-bar-card">
+                                  <div class="card-header">
+                                      <h3>Total Profit</h3>
+                                  </div>
+                                  <div class="card-block">
+                                      <p>June - July</p>
+                                      <div class="row text-center">
+                                          <div class="col-6">
+                                              <div id="pbc-5" class="pbc-chart" style="height:50px"></div>
+                                              <h6>$ 56,480<i class="fas fa-caret-up ml-10 text-green"></i></h6>
+                                          </div>
+                                          <div class="col-6">
+                                              <div data-label="60%" class="radial-bar radial-bar-60 radial-bar-sm radial-bar-warning mb-5"></div>
+                                              <h6>$2.6k<i class="fas fa-caret-down ml-10 text-red"></i></h6>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-xl-3 col-md-6">
+                              <div class="card prod-bar-card">
+                                  <div class="card-header">
+                                      <h3>Total Profit</h3>
+                                  </div>
+                                  <div class="card-block">
+                                      <p>June - July</p>
+                                      <div class="row text-center">
+                                          <div class="col-6">
+                                              <div id="pbc-6" class="pbc-chart" style="height:50px"></div>
+                                              <h6>$ 56,480<i class="fas fa-caret-up ml-10 text-green"></i></h6>
+                                          </div>
+                                          <div class="col-6">
+                                              <div data-label="60%" class="radial-bar radial-bar-60 radial-bar-sm radial-bar-warning mb-5"></div>
+                                              <h6>$2.6k<i class="fas fa-caret-down ml-10 text-red"></i></h6>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- product bar chart end -->
 
+                          <!-- sale card start -->
+                          <div class="col-xl-3 col-md-6">
+                              <div class="card sale-card" style="min-height: 301px;">
+                                  <div class="card-header">
+                                      <h3>Order Overview</h3>
+                                  </div>
+                                  <div class="card-block text-center">
+                                      <div class="s-chart">
+                                          <input type="text" class="dial" value="35" data-width="130" data-height="130" data-fgColor="#42a5f5" data-angleOffset="-125" data-angleArc="250" data-thickness=".1">
+                                          <div class="bottom-line"></div>
+                                      </div>
+                                      <h6>Congratulation!</h6>
+                                      <p class="mb-0">You have +75 orders compared to last month</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-xl-3 col-md-6">
+                              <div class="card sale-card ">
+                                  <div class="card-header">
+                                      <h3>Unique Visitors</h3>
+                                  </div>
+                                  <div class="card-block text-center">
+                                      <div data-label="40%" class="radial-bar radial-bar-40 radial-bar-lg radial-bar-danger">
+                                          <img src="http://localhost/ProjectAkuntan/img/users/2.jpg" alt="User-Image">
+                                      </div>
+                                      <div class="row">
+                                          <div class="col-6">
+                                              <div class="s-caption bg-default"></div>
+                                              <div class="s-cont d-inline-block">
+                                                  <h5 class="fw-700 mb-0">1,507</h5>
+                                                  <p class="mb-0">Female</p>
+                                              </div>
+                                          </div>
+                                          <div class="col-6 border-left">
+                                              <div class="s-caption bg-red"></div>
+                                              <div class="s-cont d-inline-block">
+                                                  <h5 class="fw-700 mb-0">1,264</h5>
+                                                  <p class="mb-0">male</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-xl-3 col-md-6">
+                              <div class="card sale-card">
+                                  <div class="card-header">
+                                      <h3>Sales Statistics</h3>
+                                  </div>
+                                  <div class="card-block text-center">
+                                      <div data-label="40%" class="radial-bar radial-bar-40 radial-bar-lg radial-bar-danger">
+                                          <img src="http://localhost/ProjectAkuntan/img/users/3.jpg" alt="User-Image">
+                                      </div>
+                                      <div class="row">
+                                          <div class="col-6">
+                                              <h5 class="fw-700 mb-0">5,632</h5>
+                                              <p class="mb-0">Weekly</p>
+                                          </div>
+                                          <div class="col-6 border-left">
+                                              <h5 class="fw-700 mb-0">23,131</h5>
+                                              <p class="mb-0">Monthly</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-xl-3 col-md-6">
+                              <div class="card sale-card" style="min-height: 301px;">
+                                  <div class="card-header">
+                                      <h3>Summary</h3>
+                                  </div>
+                                  <div class="card-block text-center">
+                                      <input type="text" class="dial" value="35" data-width="60" data-height="60" data-fgColor="#42a5f5" data-angleOffset="-125" data-angleArc="250" data-thickness=".25" data-displayInput="false">
+                                      <p class="mb-10 text-left">House <span class="float-right">90%</span></p>
+                                      <div class="progress mb-20">
+                                          <div class="progress-bar bg-c-blue" style="width:90%"></div>
+                                      </div>
+                                      <p class="mb-10 text-left">Food <span class="float-right">30%</span></p>
+                                      <div class="progress mb-20">
+                                          <div class="progress-bar bg-c-blue" style="width:30%"></div>
+                                      </div>
+                                      <div class="text-center">
+                                          <a href="#!" class="text-mute"><i class="fas fa-bars mr-10"></i>View More</a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- sale card end -->
 
-                        <div class="card">
-                            <div class="card-header row">
-                                <div class="col col-sm-3">
-                                    <div class="dropdown d-inline-block">
-                                        <a class="btn-icon checkbox-dropdown dropdown-toggle" href="#" id="moreDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
-                                        <div class="dropdown-menu" aria-labelledby="moreDropdown">
-                                            <a class="dropdown-item" id="checkbox_select_all" href="javascript:void(0);">Select All</a>
-                                            <a class="dropdown-item" id="checkbox_deselect_all" href="javascript:void(0);">Deselect All</a>
-                                        </div>
-                                    </div>
-                                    <div class="card-options d-inline-block">
-                                        <a href="#"><i class="ik ik-inbox"></i></a>
-                                        <a href="#"><i class="ik ik-plus"></i></a>
-                                        <a href="#"><i class="ik ik-rotate-cw"></i></a>
-                                        <div class="dropdown d-inline-block">
-                                            <a class="nav-link dropdown-toggle" href="#" id="moreDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="ik ik-more-horizontal"></i></a>
-                                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="moreDropdown">
-                                                <a class="dropdown-item" href="#">Action</a>
-                                                <a class="dropdown-item" href="#">More Action</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col col-sm-6">
-                                    <div class="card-search with-adv-search dropdown">
-                                        <form action="">
-                                            <input type="text" class="form-control" placeholder="Search.." required>
-                                            <button type="submit" class="btn btn-icon"><i class="ik ik-search"></i></button>
-                                            <button type="button" id="adv_wrap_toggler" class="adv-btn ik ik-chevron-down dropdown-toggle" data-toggle="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                                            <div class="adv-search-wrap dropdown-menu dropdown-menu-right" aria-labelledby="adv_wrap_toggler">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Full Name">
-                                                </div>
-                                                <div class="form-group">
-                                                    <input type="email" class="form-control" placeholder="Email">
-                                                </div>
-                                                <button class="btn btn-theme">Search</button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="col col-sm-3">
-                                    <div class="card-options text-right">
-                                        <span class="mr-5">1 - 50 of 2,500</span>
-                                        <a href="#"><i class="ik ik-chevron-left"></i></a>
-                                        <a href="#"><i class="ik ik-chevron-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-body p-0">
-                                <div class="list-item-wrap">
-                                    <div class="list-item">
-                                        <div class="item-inner">
-                                            <label class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="item_checkbox" name="item_checkbox" value="option1">
-                                                <span class="custom-control-label">&nbsp;</span>
-                                            </label>
-                                            <div class="list-title"><a href="javascript:void(0)">Lorem Ipsum is simply dumm dummy text of the printing and typesetting industry.</a></div>
-                                            <div class="list-actions">
-                                                <a href="#"><i class="ik ik-eye"></i></a>
-                                                <a href="#"><i class="ik ik-inbox"></i></a>
-                                                <a href="#"><i class="ik ik-edit-2"></i></a>
-                                                <a href="#"><i class="ik ik-trash-2"></i></a>
-                                            </div>
-                                        </div>
+                          <!-- sale 2 card start -->
+                          <div class="col-md-6 col-xl-4">
+                              <div class="card sale-card">
+                                  <div class="card-header">
+                                      <h3>Realtime Profit</h3>
+                                  </div>
+                                  <div class="card-block text-center">
+                                      <div id="realtime-profit" style="height:150px"></div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-6 col-xl-4">
+                              <div class="card sale-card">
+                                  <div class="card-header">
+                                      <h3>Sales Difference</h3>
+                                  </div>
+                                  <div class="card-block text-center">
+                                      <div id="sale-diff" class="chart-shadow" style="height:150px"></div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-12 col-xl-4">
+                              <div class="card card-green text-white">
+                                  <div class="card-block pb-0">
+                                      <div class="row mb-50">
+                                          <div class="col">
+                                              <h6 class="mb-5">Sales In July</h6>
+                                              <h5 class="mb-0  fw-700">$2665.00</h5>
+                                          </div>
+                                          <div class="col-auto text-center">
+                                              <p class="mb-5">Direct Sale</p>
+                                              <h6 class="mb-0">$1768</h6>
+                                          </div>
 
-                                        <div class="qickview-wrap">
-                                            <div class="desc">
-                                                <p>Fusce suscipit turpis a dolor posuere ornare at a ante. Quisque nec libero facilisis, egestas tortor eget, mattis dui. Curabitur viverra laoreet ligula at hendrerit. Nullam sollicitudin maximus leo, vel pulvinar orci semper id. Donec vehicula tempus enim a facilisis. Proin dignissim porttitor sem, sed pulvinar tortor gravida vitae.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="list-item">
-                                        <div class="item-inner">
-                                            <label class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="item_checkbox" name="item_checkbox" value="option2">
-                                                <span class="custom-control-label">&nbsp;</span>
-                                            </label>
-                                            <div class="list-title"><a href="javascript:void(0)">Aenean eu pharetra arcu, vitae elementum sem. Sed non ligula molestie, finibus lacus at, suscipit mi. Nunc luctus lacus vel felis blandit, eu finibus augue tincidunt.</a></div>
-                                            <div class="list-actions">
-                                                <a href="#"><i class="ik ik-eye"></i></a>
-                                                <a href="#"><i class="ik ik-inbox"></i></a>
-                                                <a href="#"><i class="ik ik-edit-2"></i></a>
-                                                <a href="#"><i class="ik ik-trash-2"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="qickview-wrap">
-                                            <div class="desc">
-                                                <p>Fusce suscipit turpis a dolor posuere ornare at a ante. Quisque nec libero facilisis, egestas tortor eget, mattis dui. Curabitur viverra laoreet ligula at hendrerit. Nullam sollicitudin maximus leo, vel pulvinar orci semper id. Donec vehicula tempus enim a facilisis. Proin dignissim porttitor sem, sed pulvinar tortor gravida vitae.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="list-item">
-                                        <div class="item-inner">
-                                            <label class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="item_checkbox" name="item_checkbox" value="option3">
-                                                <span class="custom-control-label">&nbsp;</span>
-                                            </label>
-                                            <div class="list-title"><a href="javascript:void(0)">Donec lectus augue, suscipit in sodales sit amet, semper sit amet enim. Duis pretium, nisi id pretium ornare, tortor nibh sodales tellus.</a></div>
-                                            <div class="list-actions">
-                                                <a href="#"><i class="ik ik-eye"></i></a>
-                                                <a href="#"><i class="ik ik-inbox"></i></a>
-                                                <a href="#"><i class="ik ik-edit-2"></i></a>
-                                                <a href="#"><i class="ik ik-trash-2"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="qickview-wrap">
-                                            <div class="desc">
-                                                <p>Fusce suscipit turpis a dolor posuere ornare at a ante. Quisque nec libero facilisis, egestas tortor eget, mattis dui. Curabitur viverra laoreet ligula at hendrerit. Nullam sollicitudin maximus leo, vel pulvinar orci semper id. Donec vehicula tempus enim a facilisis. Proin dignissim porttitor sem, sed pulvinar tortor gravida vitae.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header row">
-                                <div class="col col-sm-3">
-                                    <div class="card-options d-inline-block">
-                                        <a href="#"><i class="ik ik-inbox"></i></a>
-                                        <a href="#"><i class="ik ik-plus"></i></a>
-                                        <a href="#"><i class="ik ik-rotate-cw"></i></a>
-                                        <div class="dropdown d-inline-block">
-                                            <a class="nav-link dropdown-toggle" href="#" id="moreDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="ik ik-more-horizontal"></i></a>
-                                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="moreDropdown">
-                                                <a class="dropdown-item" href="#">Action</a>
-                                                <a class="dropdown-item" href="#">More Action</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col col-sm-6">
-                                    <div class="card-search with-adv-search dropdown">
-                                        <form action="">
-                                            <input type="text" class="form-control global_filter" id="global_filter" placeholder="Search.." required>
-                                            <button type="submit" class="btn btn-icon"><i class="ik ik-search"></i></button>
-                                            <button type="button" id="adv_wrap_toggler" class="adv-btn ik ik-chevron-down dropdown-toggle" data-toggle="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                                            <div class="adv-search-wrap dropdown-menu dropdown-menu-right" aria-labelledby="adv_wrap_toggler">
-                                                <div class="row">
-                                                    <div class="col-md-12">
-                                                        <div class="form-group">
-                                                            <input type="text" class="form-control column_filter" id="col0_filter" placeholder="Name" data-column="0">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="form-group">
-                                                            <input type="text" class="form-control column_filter" id="col1_filter" placeholder="Position" data-column="1">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="form-group">
-                                                            <input type="text" class="form-control column_filter" id="col2_filter" placeholder="Office" data-column="2">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-4">
-                                                        <div class="form-group">
-                                                            <input type="text" class="form-control column_filter" id="col3_filter" placeholder="Age" data-column="3">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-4">
-                                                        <div class="form-group">
-                                                            <input type="text" class="form-control column_filter" id="col4_filter" placeholder="Start date" data-column="4">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-4">
-                                                        <div class="form-group">
-                                                            <input type="text" class="form-control column_filter" id="col5_filter" placeholder="Salary" data-column="5">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <button class="btn btn-theme">Search</button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="col col-sm-3">
-                                    <div class="card-options text-right">
-                                        <span class="mr-5" id="top">1 - 50 of 2,500</span>
-                                        <a href="#"><i class="ik ik-chevron-left"></i></a>
-                                        <a href="#"><i class="ik ik-chevron-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <table id="advanced_table" class="table">
-                                    <thead>
-                                        <tr>
-                                            <th class="nosort" width="10">
-                                                <label class="custom-control custom-checkbox m-0">
-                                                    <input type="checkbox" class="custom-control-input" id="selectall" name="" value="option2">
-                                                    <span class="custom-control-label">&nbsp;</span>
-                                                </label>
-                                            </th>
-                                            <th class="nosort">Avatar</th>
-                                            <th>Name</th>
-                                            <th>Position</th>
-                                            <th>Office</th>
-                                            <th>Age</th>
-                                            <th>Start date</th>
-                                            <th>Salary</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <label class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input select_all_child" id="" name="" value="option2">
-                                                    <span class="custom-control-label">&nbsp;</span>
-                                                </label>
-                                            </td>
-                                            <td><img src="img/users/1.jpg" class="table-user-thumb" alt=""></td>
-                                            <td>Tiger Nixon</td>
-                                            <td>System Architect</td>
-                                            <td>Edinburgh</td>
-                                            <td>61</td>
-                                            <td>2011/04/25</td>
-                                            <td>$320,800</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <label class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input select_all_child" id="" name="" value="option2">
-                                                    <span class="custom-control-label">&nbsp;</span>
-                                                </label>
-                                            </td>
-                                            <td><img src="img/users/2.jpg" class="table-user-thumb" alt=""></td>
-                                            <td>Garrett Winters</td>
-                                            <td>Accountant</td>
-                                            <td>Tokyo</td>
-                                            <td>63</td>
-                                            <td>2011/07/25</td>
-                                            <td>$170,750</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <label class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input select_all_child" id="" name="" value="option2">
-                                                    <span class="custom-control-label">&nbsp;</span>
-                                                </label>
-                                            </td>
-                                            <td><img src="img/users/3.jpg" class="table-user-thumb" alt=""></td>
-                                            <td>Ashton Cox</td>
-                                            <td>Junior Technical Author</td>
-                                            <td>San Francisco</td>
-                                            <td>66</td>
-                                            <td>2009/01/12</td>
-                                            <td>$86,000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <label class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input select_all_child" id="" name="" value="option2">
-                                                    <span class="custom-control-label">&nbsp;</span>
-                                                </label>
-                                            </td>
-                                            <td><img src="img/users/4.jpg" class="table-user-thumb" alt=""></td>
-                                            <td>Cedric Kelly</td>
-                                            <td>Senior Javascript Developer</td>
-                                            <td>Edinburgh</td>
-                                            <td>22</td>
-                                            <td>2012/03/29</td>
-                                            <td>$433,060</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <label class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input select_all_child" id="" name="" value="option2">
-                                                    <span class="custom-control-label">&nbsp;</span>
-                                                </label>
-                                            </td>
-                                            <td><img src="img/users/5.jpg" class="table-user-thumb" alt=""></td>
-                                            <td>Airi Satou</td>
-                                            <td>Accountant</td>
-                                            <td>Tokyo</td>
-                                            <td>33</td>
-                                            <td>2008/11/28</td>
-                                            <td>$162,700</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <label class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input select_all_child" id="" name="" value="option2">
-                                                    <span class="custom-control-label">&nbsp;</span>
-                                                </label>
-                                            </td>
-                                            <td><img src="img/users/1.jpg" class="table-user-thumb" alt=""></td>
-                                            <td>Brielle Williamson</td>
-                                            <td>Integration Specialist</td>
-                                            <td>New York</td>
-                                            <td>61</td>
-                                            <td>2012/12/02</td>
-                                            <td>$372,000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <label class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input select_all_child" id="" name="" value="option2">
-                                                    <span class="custom-control-label">&nbsp;</span>
-                                                </label>
-                                            </td>
-                                            <td><img src="img/users/2.jpg" class="table-user-thumb" alt=""></td>
-                                            <td>Herrod Chandler</td>
-                                            <td>Sales Assistant</td>
-                                            <td>San Francisco</td>
-                                            <td>59</td>
-                                            <td>2012/08/06</td>
-                                            <td>$137,500</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <label class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input select_all_child" id="" name="" value="option2">
-                                                    <span class="custom-control-label">&nbsp;</span>
-                                                </label>
-                                            </td>
-                                            <td><img src="img/users/3.jpg" class="table-user-thumb" alt=""></td>
-                                            <td>Rhona Davidson</td>
-                                            <td>Integration Specialist</td>
-                                            <td>Tokyo</td>
-                                            <td>55</td>
-                                            <td>2010/10/14</td>
-                                            <td>$327,900</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <label class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input select_all_child" id="" name="" value="option2">
-                                                    <span class="custom-control-label">&nbsp;</span>
-                                                </label>
-                                            </td>
-                                            <td><img src="img/users/4.jpg" class="table-user-thumb" alt=""></td>
-                                            <td>Colleen Hurst</td>
-                                            <td>Javascript Developer</td>
-                                            <td>San Francisco</td>
-                                            <td>39</td>
-                                            <td>2009/09/15</td>
-                                            <td>$205,500</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
+                                          <div class="col-auto text-center">
+                                              <p class="mb-5">Referal</p>
+                                              <h6 class="mb-0">$897</h6>
+                                          </div>
+                                      </div>
+                                      <div id="sec-ecommerce-chart-line" class="chart-shadow" style="height:30px"></div>
+                                      <div id="sec-ecommerce-chart-bar" style="height:100px"></div>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- sale 2 card end -->
+
+                          <!-- sale revenue card start -->
+                          <div class="col-md-12 col-xl-8">
+                              <div class="card sale-card">
+                                  <div class="card-header">
+                                      <h3>Deals Analytics</h3>
+                                  </div>
+                                  <div class="card-block">
+                                      <div id="deal-analytic-chart" class="chart-shadow" style="height:300px"></div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-12 col-xl-4">
+                              <div class="card sale-card">
+                                  <div class="card-header">
+                                      <h3>Total Revenue</h3>
+                                  </div>
+                                  <div class="card-block text-center">
+                                      <div id="tot-rev-chart" class="tot-rev-chart chart-shadow st-cir-chart" style="width:100px;height:100px">
+                                          <h3>120</h3>
+                                      </div>
+                                      <h6 class="mt-40">Today’s Total Sales</h6>
+                                      <h3 class="fw-700 mb-40">100</h3>
+                                      <div class="row">
+                                          <div class="col-4">
+                                              <p class="mb-5">Target</p>
+                                              <h3 class="fw-700 text-yellow">$1253</h3>
+                                          </div>
+                                          <div class="col-4">
+                                              <p class="mb-5">Last Week</p>
+                                              <h3 class="fw-700 text-yellow">$795</h3>
+                                          </div>
+                                          <div class="col-4">
+                                              <p class="mb-5">Last Month</p>
+                                              <h3 class="fw-700 text-yellow">$978</h3>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- sale revenue card end -->
+
+                          <!-- income start -->
+                          <div class="col-xl-4 col-md-6">
+                              <div class="card o-hidden">
+                                  <div class="card-header">
+                                      <h3>Sale Income</h3>
+                                  </div>
+                                  <div class="card-block">
+                                      <div class="row">
+                                          <div class="col-4">
+                                              <p class="text-muted mb-5">Overall</p>
+                                              <h6>68.52%</h6>
+                                          </div>
+                                          <div class="col-4">
+                                              <p class="text-muted mb-5">Monthly</p>
+                                              <h6>28.90%</h6>
+                                          </div>
+                                          <div class="col-4">
+                                              <p class="text-muted mb-5">Day</p>
+                                              <h6>13.50%</h6>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div id="sal-income" style="height:100px"></div>
+                              </div>
+                          </div>
+                          <div class="col-xl-4 col-md-6">
+                              <div class="card o-hidden">
+                                  <div class="card-header">
+                                      <h3>Rent Income</h3>
+                                  </div>
+                                  <div class="card-block">
+                                      <div class="row">
+                                          <div class="col-4">
+                                              <p class="text-muted mb-5">Overall</p>
+                                              <h6>68.52%</h6>
+                                          </div>
+                                          <div class="col-4">
+                                              <p class="text-muted mb-5">Monthly</p>
+                                              <h6>28.90%</h6>
+                                          </div>
+                                          <div class="col-4">
+                                              <p class="text-muted mb-5">Day</p>
+                                              <h6>13.50%</h6>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div id="rent-income" style="height:100px"></div>
+                              </div>
+                          </div>
+                          <div class="col-xl-4 col-md-12">
+                              <div class="card o-hidden">
+                                  <div class="card-header">
+                                      <h3>Income Analysis</h3>
+                                  </div>
+                                  <div class="card-block">
+                                      <div class="row">
+                                          <div class="col-4">
+                                              <p class="text-muted mb-5">Overall</p>
+                                              <h6>68.52%</h6>
+                                          </div>
+                                          <div class="col-4">
+                                              <p class="text-muted mb-5">Monthly</p>
+                                              <h6>28.90%</h6>
+                                          </div>
+                                          <div class="col-4">
+                                              <p class="text-muted mb-5">Day</p>
+                                              <h6>13.50%</h6>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div id="income-analysis" style="height:100px"></div>
+                              </div>
+                          </div>
+                          <!-- income end -->
+
+                      </div>
                     </div>
                 </div>
 
