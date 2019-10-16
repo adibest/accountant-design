@@ -22,9 +22,6 @@
                   <a href="http://localhost/ProjectAkuntan/views/pages/supplier" class="menu-item <?php if($pagenow == "/ProjectAkuntan/views/pages/supplier") {echo "active";} else {echo "";}?>">Supplier</a>
               </div>
           </div>
-          <div class="nav-item <?php if($pagenow == "/ProjectAkuntan/views/pages/satuan") {echo "active";} else {echo "";}?>">
-              <a href="http://localhost/ProjectAkuntan/views/pages/satuan"><i class="ik ik-compass"></i><span>Satuan</span></a>
-          </div>
           <div class="nav-item has-sub <?php if($pagenow === "/ProjectAkuntan/views/pages/saldo_awal" || $pagenow === "/ProjectAkuntan/views/pages/saldo_piutang" || $pagenow === "/ProjectAkuntan/views/pages/saldo_hutang") {echo "active open";} else {echo "";}?>">
               <a href="#"><i class="ik ik-database"></i><span>Saldo Awal</span></a>
               <div class="submenu-content">

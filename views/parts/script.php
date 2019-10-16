@@ -16,7 +16,6 @@
 <script src="http://localhost/ProjectAkuntan/plugins/tempusdominus-bootstrap-4/build/js/tempusdominus-bootstrap-4.min.js"></script>
 <script src="http://localhost/ProjectAkuntan/plugins/d3/dist/d3.min.js"></script>
 <script src="http://localhost/ProjectAkuntan/plugins/c3/c3.min.js"></script>
-<script src="http://localhost/ProjectAkuntan/plugins/c3/c3.min.js"></script>
 <script src="http://localhost/ProjectAkuntan/plugins/owl.carousel/dist/owl.carousel.min.js"></script>
 <script src="http://localhost/ProjectAkuntan/plugins/chartist/dist/chartist.min.js"></script>
 <script src="http://localhost/ProjectAkuntan/plugins/flot-charts/jquery.flot.js"></script>
@@ -34,6 +33,7 @@
 
 <script src="http://localhost/ProjectAkuntan/dist/js/theme.min.js"></script>
 <script src="http://localhost/ProjectAkuntan/js/widget-chart.js"></script>
+<script src="http://localhost/ProjectAkuntan/js/widget-statistic.js"></script>
 
 <!-- <script src="http://localhost/ProjectAkuntan/js/alerts.js"></script>
 <script src="http://localhost/ProjectAkuntan/js/calendar.js"></script>

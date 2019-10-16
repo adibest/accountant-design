@@ -18,48 +18,60 @@
                 <div class="container">
                     <div class="apps-wrap">
                         <div class="app-item">
-                            <a href="#"><i class="ik ik-bar-chart-2"></i><span>Dashboard</span></a>
+                            <a href="http://localhost/ProjectAkuntan/index.php"><i class="ik ik-home"></i><span>Dasbor</span></a>
+                        </div>
+                        <div class="app-item">
+                          <a href="http://localhost/ProjectAkuntan/views/pages/laporan"><i class="ik ik-trending-up"></i><span>Laporan</span></a>
+                        </div>
+                        <div class="app-item">
+                          <a href="http://localhost/ProjectAkuntan/views/pages/akun"><i class="ik ik-menu"></i><span>Daftar Akun</span></a>
                         </div>
                         <div class="app-item dropdown">
-                            <a href="#" class="dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="ik ik-command"></i><span>Ui</span></a>
+                            <a href="#" class="dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="ik ik-phone"></i><span>Kontak</span></a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
+                                <a class="dropdown-item" href="http://localhost/ProjectAkuntan/views/pages/customer">Customer</a>
+                                <a class="dropdown-item" href="http://localhost/ProjectAkuntan/views/pages/supplier">Supplier</a>
                             </div>
                         </div>
                         <div class="app-item">
-                            <a href="#"><i class="ik ik-mail"></i><span>Message</span></a>
+                            <a href="http://localhost/ProjectAkuntan/views/pages/satuan"><i class="ik ik-compass"></i><span>Satuan</span></a>
+                        </div>
+                        <div class="app-item dropdown">
+                            <a href="#" class="dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a href="#"><i class="ik ik-database"></i><span>Saldo Awal</span></a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="http://localhost/ProjectAkuntan/views/pages/saldo_awal">Saldo Awal</a>
+                                <a class="dropdown-item" href="http://localhost/ProjectAkuntan/views/pages/saldo_piutang">Saldo Piutang</a>
+                                <a class="dropdown-item" href="http://localhost/ProjectAkuntan/views/pages/saldo_hutang">Saldo Hutang</a>
+                            </div>
+                        </div>
+                        <div class="app-item dropdown">
+                            <a href="#" class="dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a href="#"><i class="ik ik-package"></i><span>Penjualan</span></a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="http://localhost/ProjectAkuntan/views/pages/crj">Cash Receipt Journal</a>
+                                <a class="dropdown-item" href="http://localhost/ProjectAkuntan/views/pages/sales_journal">Sales Journal</a>
+                            </div>
+                        </div>
+                        <div class="app-item dropdown">
+                            <a href="#" class="dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a href="#"><i class="ik ik-shopping-cart"></i><span>Pembelian</span></a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="http://localhost/ProjectAkuntan/views/pages/cpj">Cash Payment Journal</a>
+                                <a class="dropdown-item" href="http://localhost/ProjectAkuntan/views/pages/payments_journal">Payments Journal</a>
+                            </div>
                         </div>
                         <div class="app-item">
-                            <a href="#"><i class="ik ik-users"></i><span>Accounts</span></a>
+                            <a href="http://localhost/ProjectAkuntan/views/pages/jurnal_umum"><i class="ik ik-book"></i><span>Jurnal Umum</span></a>
                         </div>
                         <div class="app-item">
-                            <a href="#"><i class="ik ik-shopping-cart"></i><span>Sales</span></a>
+                            <a href="http://localhost/ProjectAkuntan/views/pages/kas_kecil"><i class="ik ik-briefcase"></i><span>Kas Kecil</span></a>
                         </div>
                         <div class="app-item">
-                            <a href="#"><i class="ik ik-briefcase"></i><span>Purchase</span></a>
+                            <a href="http://localhost/ProjectAkuntan/views/pages/jurnal_penyesuaian"><i class="ik ik-activity"></i><span>Jurnal Penyesuaian</span></a>
                         </div>
                         <div class="app-item">
-                            <a href="#"><i class="ik ik-server"></i><span>Menus</span></a>
+                            <a href="http://localhost/ProjectAkuntan/views/pages/item"><i class="ik ik-box"></i><span>Item</span></a>
                         </div>
                         <div class="app-item">
-                            <a href="#"><i class="ik ik-clipboard"></i><span>Pages</span></a>
-                        </div>
-                        <div class="app-item">
-                            <a href="#"><i class="ik ik-message-square"></i><span>Chats</span></a>
-                        </div>
-                        <div class="app-item">
-                            <a href="#"><i class="ik ik-map-pin"></i><span>Contacts</span></a>
-                        </div>
-                        <div class="app-item">
-                            <a href="#"><i class="ik ik-box"></i><span>Blocks</span></a>
-                        </div>
-                        <div class="app-item">
-                            <a href="#"><i class="ik ik-calendar"></i><span>Events</span></a>
-                        </div>
-                        <div class="app-item">
-                            <a href="#"><i class="ik ik-bell"></i><span>Notifications</span></a>
+                            <a href="http://localhost/ProjectAkuntan/views/pages/stock_opname"><i class="ik ik-truck"></i><span>Stock Opname</span></a>
                         </div>
                         <div class="app-item">
                             <a href="#"><i class="ik ik-pie-chart"></i><span>Reports</span></a>
